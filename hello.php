@@ -4,7 +4,16 @@
 </head>
 <body>
 
+<!-- -->
+
 <?php
+
+#  Comment1
+// Comment2 
+/* Comment3 複数行のコメント
+
+
+*/
 
 	echo "HELLO world";
 
