@@ -8,14 +8,19 @@
 
 <?php
 
-/*  定数の宣言方法　
-	定数は必ず大文字で宣言すること
+/*  配列の宣言　
 */
 
+$name = array('GON','YUYA','KAZUYA','HIRO','MIKAMI');
 
-define('USERNAME', 'GONJO YUYA');
+foreach ($name as $value ) {
+	echo "the name is".$value."<br />";
+}
 
-echo USERNAME;
+foreach ($name as $key => $value) {
+	echo $key . $value . "<br />";
+}
+
 
 ?>	
 
