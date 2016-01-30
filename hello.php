@@ -8,14 +8,11 @@
 
 <?php
 
-#  Comment1
-// Comment2 
-/* Comment3 複数行のコメント
+$name = "GONJO";
+
+echo "my name is ".$name."!";
 
 
-*/
-
-	echo "HELLO world";
 
 ?>	
 
