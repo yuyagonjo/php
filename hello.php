@@ -8,11 +8,11 @@
 
 <?php
 
-$name = "GONJO";
+$name1 = "GONJO";
+$name2 = "YUYA";
+$name1 .= $name2;
 
-echo "my name is ".$name."!";
-
-
+echo $name1
 
 ?>	
 
