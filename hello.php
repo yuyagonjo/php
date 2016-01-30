@@ -8,11 +8,14 @@
 
 <?php
 
-$name1 = "GONJO";
-$name2 = "YUYA";
-$name1 .= $name2;
+/*  定数の宣言方法　
+	定数は必ず大文字で宣言すること
+*/
 
-echo $name1
+
+define('USERNAME', 'GONJO YUYA');
+
+echo USERNAME;
 
 ?>	
 
