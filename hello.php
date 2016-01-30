@@ -8,19 +8,24 @@
 
 <?php
 
-/*  配列の宣言　
+/*  forループ
 */
 
-$name = array('GON','YUYA','KAZUYA','HIRO','MIKAMI');
-
-foreach ($name as $value ) {
-	echo "the name is".$value."<br />";
+for ($i=1; $i <= 10; $i++){ 
+	
+	echo $i." forループ文"."<br />";
 }
 
-foreach ($name as $key => $value) {
-	echo $key . $value . "<br />";
-}
 
+/*
+	whileループ
+ */
+$i = 1;
+
+while ( $i <= 10) {
+	echo $i. " while ループ文"."<br />";
+	$i++;
+}
 
 ?>	
 
