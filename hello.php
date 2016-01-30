@@ -8,24 +8,27 @@
 
 <?php
 
-/*  forループ
-*/
-
-for ($i=1; $i <= 10; $i++){ 
-	
-	echo $i." forループ文"."<br />";
-}
-
-
 /*
-	whileループ
+	switch文
  */
-$i = 1;
 
-while ( $i <= 10) {
-	echo $i. " while ループ文"."<br />";
-	$i++;
-}
+	$name = "GONJO YUYA";
+
+	switch ($name) {
+		case 'YUYA':
+
+			echo  "nothing user";
+			break;
+		
+		case 'GONJO':
+
+			echo "Welcome";
+
+		default:
+			echo "not member";
+			break;
+	}
+
 
 ?>	
 
