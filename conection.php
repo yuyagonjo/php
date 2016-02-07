@@ -14,5 +14,6 @@ $dbc = mysqli_connect($hostname, $username, $password, $dbname) or die("could no
 mysqli_set_charset($dbc,"utf8");
 
 echo "mysql conection success!!";
+echo "<br />";
 
  ?>

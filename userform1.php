@@ -4,7 +4,7 @@
 
 
 
-	<form action="processing.php" method="post">
+	<form action="userform.php" method="post">
 
 		<p>First Name:	<input type="text" name="fname" size="20" maxlength="40" /></p>
 		<p>Last Name:	<input type="text" name="lname" size="20" maxlength="40" /></p>

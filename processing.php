@@ -2,8 +2,6 @@
 
 //processing
 
-
-
 if ($_SERVER['REQUEST_METHOD'] == 'POST'){
 
 	$fname = $_POST['fname'];
@@ -18,7 +16,13 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST'){
 	if(isset($fname,$lname,$email,$gender,$age,$comments,$password)){
 
 		include('conection.php');
-	}
+
+		mysqli_query($dbc, "INSERT INTO users(first_name,last_name,email,gender,password,age,comments) VALUES('$fname','$lname','$email','$gender','$password','$age','$comments')");
+
+		$registerd = mysqli_affected_rows($dbc);
+
+		echo $registerd."row is affected"; 
+	}	
 
 }else{
 
