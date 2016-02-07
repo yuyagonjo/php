@@ -11,6 +11,7 @@
 		include('userform1.php')
 	 ?>
 
+<a href="output.php" >Check hear</a>
 
 </body>
 </html>
