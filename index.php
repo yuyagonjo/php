@@ -5,8 +5,10 @@
 <?php include('allsections.php'); ?>
 
 <?php echo $head_section; ?>
+<body>
 <?php echo $body; ?>
 <?php echo $content; ?>
 <!--<?php echo $footer ?>-->
 
+</body>
 </html>
